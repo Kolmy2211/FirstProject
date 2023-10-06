@@ -1,0 +1,564 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+.container {
+    /* width: fit-content; */
+    padding: 100px 15px;
+    margin: 0 auto;
+    max-width: 1300px;
+}
+
+.section-title {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.section-title-white {
+    color: white;
+}
+
+.section-text {
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.nav-menu {
+    position: fixed;
+    top: 0;
+    height: 100px;
+    line-height: 100px;
+    width: 100%;
+    background-color: #121212;
+    padding: 0 20px;
+    z-index: 1000;
+}
+
+.logo-link {
+    display: inline-block;
+    width: 150px;
+    height: 100%;
+}
+
+.nav-logo {
+    /* transform: translateY(40%); */
+    object-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+.nav-container {
+    float: right;
+}
+
+.nav-item {
+    display: inline-block;
+    font-size: 25px;
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+    transition: 300ms;
+}
+
+.nav-item:hover {
+    color: #ffc997;
+    transform: scale(1.2);
+    margin: 0 20px;
+}
+
+.header {
+    position: relative;
+    height: 100vh;
+    background: linear-gradient(#db7e7e, #ffc977);
+    overflow: hidden;
+}
+
+.header-content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: fit-content;
+    z-index: 100;
+}
+
+.header-title {
+    width: fit-content;
+    font-size: 100px;
+    color: white;
+    text-shadow: 10px 10px 0 #e06161;
+}
+
+.header-btn {
+    margin: 15px auto 0;
+    display: block;
+    width: fit-content;
+    width: 300px;
+    height: 80px;
+    background-color: white;
+    border-radius: 200px;
+    text-align: center;
+    line-height: 80px;
+    box-shadow: 10px 10px 0 #e06161;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.header-background {
+    z-index: 10;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+
+
+.figura {
+    position: absolute;
+}
+
+.crug-zal {
+    left: -2%;
+    bottom: -1%;
+    animation: move-up-left 8s linear 0ms infinite;
+}
+
+.crug-mal {
+    left: 8%;
+    bottom: -1%;
+    animation: move-right 12s linear 0ms infinite;
+}
+
+.crug-strih {
+    right: 0;
+    bottom: -10%;
+    animation: rotation 10s linear 0ms infinite;
+}
+
+.mnogoygolnik {
+    left: 50.3%;
+    top: 65%;
+    animation: rotate-move 10s linear 0ms infinite;
+}
+
+.triygolnik {
+    left: 43%;
+    top: 25%;
+    animation: move-right 12s linear 0ms infinite;
+}
+
+.crug-prav {
+    right: -2%;
+    top: -2%;
+    animation: move-left-down 8s linear 0ms infinite
+}
+
+.crug-lev {
+    left: -2%;
+    top: -2%;
+    animation: move-right-down 8s linear 0ms infinite
+}
+
+.doing {
+    background: linear-gradient(7deg, #db7e7e 18.07%, #ffc997 70%, #ffffff 70%);
+}
+
+.doing-left,
+.doing-right {
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.doing-title {
+    margin-bottom: 30px;
+}
+
+.doing-text {
+    background-color: white;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 0 #e06161;
+}
+
+.doing-img {
+    height: 100%;
+    margin: 50px 0 0 15px;
+}
+
+.yslugi {
+    background: linear-gradient(347deg, #ffffff 45.63%, #db7e7e 45.64%);
+    width: 100%;
+}
+
+.cards {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.card-title {
+    font-size: 25px;
+    padding: 10px;
+}
+
+.card-text {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.card {
+    display: inline-block;
+    vertical-align: top;
+    height: 500px;
+    max-width: 360px;
+    margin: 20px;
+    padding: 16px;
+    background-color: white;
+    border: 5px solid #FFC997;
+    border-radius: 30px;
+}
+
+.hr {
+    border-color: #db7e7e;
+    width: 52%;
+    margin: 0 auto;
+}
+
+.advantages {
+    position: relative;
+}
+
+.advantages-card {
+    display: block;
+    position: relative;
+    background-color: #fff;
+    width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    border: 5px solid #FFC997;
+    border-radius: 15px;
+    box-shadow: 10px 10px 0 #e06161;
+}
+
+.advantages-card-1 {
+    left: -100px;
+}
+
+.advantages-card-2 {
+    left: 100px;
+}
+
+.advantages-card-3 {
+    left: -80px;
+}
+
+.advantages-card-title {
+    font-size: 25px;
+    margin-bottom: 15px;
+    font-weight: 800;
+}
+
+.advantages-list {
+    list-style-type: circle;
+    margin-left: 27px;
+}
+
+
+.advantages-background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -10;
+}
+
+.advantages-hexagon {
+    position: sticky;
+    min-width: 100px;
+    width: 100%;
+    max-width: 300px;
+    top: 40%;
+    left: 8%;
+}
+
+.advantages-circle {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.portfolio-table {
+    width: 100%;
+    height: 600px;
+}
+
+.portfolio-data {
+    border: 5px solid #e06161;
+    border-radius: 25px;
+    transition: 500ms;
+}
+
+.portfolio-data:hover {
+    transform: scale(0.9);
+}
+
+.data1 {
+    background: url(/src/img/portfolio/site1.png) center / cover no-repeat;
+}
+
+.data2 {
+    background: url(/src/img/portfolio/site2.png) center / cover no-repeat;
+}
+
+.data3 {
+    background: url(/src/img/portfolio/site3.png) center / cover no-repeat;
+}
+
+.data4 {
+    background: url(/src/img/portfolio/site4.png) center / cover no-repeat;
+}
+
+.portfolio-mobile {
+    display: none;
+}
+
+.portfolio-mobile-image {
+    display: block;
+    width: 100%;
+    border: 5px solid #e06161;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+
+.contact-us {
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(#db7e7e, #ffc977);
+}
+
+@keyframes move-up-left {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    50% {
+        transform: translate(40px, 80px);
+    }
+
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(359deg);
+    }
+}
+
+@keyframes move-right {
+    0% {
+
+        transform: translateX(0);
+
+    }
+
+    50% {
+
+        transform: translateX(230%);
+
+    }
+
+    100% {
+
+        transform: translateX(0);
+
+    }
+}
+
+@keyframes rotate-move {
+    0% {
+
+        transform: translate(0, 0) rotate(0deg);
+
+    }
+
+    50% {
+
+        transform: translate(80px, 200px) rotate(180deg);
+
+    }
+
+    100% {
+
+        transform: translate(0, 0) rotate(359deg);
+
+    }
+}
+
+@keyframes move-left-down {
+    0% {
+
+        transform: translate(0, 0) rotate(0deg);
+
+    }
+
+    50% {
+
+        transform: translate(-180px, 200px) rotate(180deg);
+
+    }
+
+    100% {
+
+        transform: translate(0, 0) rotate(359deg);
+
+    }
+}
+
+@keyframes move-right-down {
+    0% {
+
+        transform: translate(0, 0) rotate(0deg);
+
+    }
+
+    50% {
+
+        transform: translate(180px, 200px) rotate(180deg);
+
+    }
+
+    100% {
+
+        transform: translate(0, 0);
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .section-title {
+        font-size: 30px;
+    }
+
+    .section-text {
+        font-size: 16px;
+    }
+
+    .nav-menu {
+        display: none;
+        width: 100%;
+        height: fit-content;
+    }
+
+    .nav-logo {
+        width: 80px;
+    }
+
+    .nav-item {
+        display: block;
+        height: 80px;
+    }
+
+    .header-title {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .header-btn {
+        width: 200px;
+        height: 60px;
+        font-size: 12px;
+        line-height: 60px;
+    }
+
+    .crug-zal {
+        width: 30%;
+    }
+
+    .crug-mal {
+        width: 12%;
+    }
+
+    .crug-strih {
+        width: 24%;
+    }
+
+    .mnogoygolnik {
+        width: 12%;
+    }
+
+    .triygolnik {
+        width: 12%;
+    }
+
+    .crug-prav {
+        width: 30%;
+    }
+
+    .crug-lev {
+        width: 30%;
+    }
+
+
+    .doing-left,
+    .doing-right {
+        display: block;
+        width: 100%;
+    }
+
+    .doing-img {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .doing-text {
+        box-shadow: 0 15px 0 #e06161;
+    }
+    .card{
+        margin: 0;
+        margin-bottom: 40px;
+    }
+
+    .advantages-card {
+        width: 100%;
+        box-shadow: 0 10px 0 #e06161;
+    }
+
+    .advantages-card-1,
+    .advantages-card-2,
+    .advantages-card-3 {
+        left: 0;
+    }
+
+    .advantages-hexagon {
+        left: 0;
+    }
+
+    .advantages-title {
+        text-shadow: 0 0 2px #ffffff;
+    }
+
+    .portfolio-table {
+        display: none;
+    }
+
+    .portfolio-mobile {
+        display: block;
+    }
+}

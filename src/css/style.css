@@ -313,19 +313,19 @@
 }
 
 .data1 {
-    background: url(/src/img/portfolio/site1.png) center / cover no-repeat;
+    background: url(src/img/portfolio/site1.png) center / cover no-repeat;
 }
 
 .data2 {
-    background: url(/src/img/portfolio/site2.png) center / cover no-repeat;
+    background: url(src/img/portfolio/site2.png) center / cover no-repeat;
 }
 
 .data3 {
-    background: url(/src/img/portfolio/site3.png) center / cover no-repeat;
+    background: url(src/img/portfolio/site3.png) center / cover no-repeat;
 }
 
 .data4 {
-    background: url(/src/img/portfolio/site4.png) center / cover no-repeat;
+    background: url(src/img/portfolio/site4.png) center / cover no-repeat;
 }
 
 .portfolio-mobile {
